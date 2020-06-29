@@ -33,7 +33,7 @@ CREATE TABLE `categoria` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Extraindo dados da tabela `categoria`
+-- inserindo dados da tabela `categoria`
 --
 
 INSERT INTO `categoria` (`idcategoria`, `nome`) VALUES
@@ -58,7 +58,7 @@ CREATE TABLE `clientes` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Extraindo dados da tabela `clientes`
+-- inserindo dados da tabela `clientes`
 --
 
 INSERT INTO `clientes` (`id`, `nome`, `categoria`, `telefone`, `endereço`, `cidade`, `uf`) VALUES
